@@ -1,13 +1,13 @@
 
 CONFIGURAR ALIAS CYGWIN
 
-C:\cygwin64\home\santiagovallejo\.bash_profile
+C:\cygwin64\home\usuario\.bash_profile
 
 LIBRERIA BODYPARSER
 
 $ npm install body-parser --save
 
-Permite recibir cualquier parametro por http, la trata y los convierte a un objeto JASON el cual podamos manipular. Te ahorras el parseado de datos.
+Permite recibir cualquier parametro por http, la trata y los convierte a un objeto JSON el cual podamos manipular. Te ahorras el parseado de datos.
 
 DEMONIO NODEMON
 
