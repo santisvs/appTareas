@@ -1,0 +1,69 @@
+/* GENERALES */
+body{
+    background: #eee;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* HEADER */
+.navbar-collapse .avatar{
+    background: white;
+    border-radius: 500px;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    float: left;
+    margin-right: 12px;
+    margin-top: -5px;
+}
+
+.navbar-collapse .avatar img{
+    height: 100%;
+    text-align: center;
+}
+
+/* HOME */
+
+#contenido{
+    width: 95%;
+    margin: 0px auto;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+#timeline{
+    background: white;
+    padding-bottom: 20px;
+    min-height: 500px;
+}
+
+#usuario-presentacion{
+    background: white;
+    padding-bottom: 20px;
+    min-height: 500px;
+}
+
+.tarea-box{
+    margin-left: -40px;
+    padding: 5px;
+    padding-top:20px;
+    background-color: grey;
+    border-top: 1px black solid;
+    list-style: none;
+}
+
+.tarea-box .image{
+    text-align: center;
+}
+
+.power-link{
+    background-color: red;
+    margin-top: 2rem;
+}
+
+

@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+    <html>
+      <head>
+        <base href="/">
+        <title>Coaching</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+        <script src="node_modules/core-js/client/shim.min.js"></script>
+        <script src="node_modules/zone.js/dist/zone.js"></script>
+        <script src="node_modules/reflect-metadata/Reflect.js"></script>
+        <script src="node_modules/systemjs/dist/system.src.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery-ias.min.js"></script>
+        <script src="assets/js/custom/common.js"></script>
+    
+        <script src="systemjs.config.js"></script>
+        <script>
+          System.import('app').catch(function(err){ console.error(err); });
+        </script>
+
+        <link href="assets/bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+        <link href="assets/css/bootstrap.cosmo.min.css" type="text/css" rel="stylesheet" />
+        <link href="assets/css/styles.css" type="text/css" rel="stylesheet" />
+      </head>
+      
+      <body>
+        <section id="content">
+          <my-app>Cargando...</my-app>
+        </section>
+      </body>
+    </html>

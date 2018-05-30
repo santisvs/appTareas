@@ -1,0 +1,23 @@
+
+	<h4>{{titulo}}</h4>
+    <div>
+		<ul>
+			<li *ngFor="let tarea of tareas" class="col-lg-12 tarea-box">
+				<div class="col-lg-2 image">
+					<label>Responsable:</label>
+					<img src="./assets/images/default.png">
+					<p>{{tarea.responsable}}</p>
+				</div>
+				<div class="col-lg-8 info">
+					<label>Tarea:</label><p class="name-surname">{{tarea.titulo}}</p>
+					<label>Descripción:</label><p>{{tarea.descripcion}}</p>
+				</div>
+				<div class="col-lg-2 links">
+					<power-link></power-link>
+				</div>
+			</li>
+		</ul>
+	</div>
+
+
+
